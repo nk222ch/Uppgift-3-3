@@ -1,1 +1,138 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+/*
+
+Sidans färger:
+
+    Bakgrund och brödtext (mörkbrun)...........................#51473d
+    Bakgrund (ljusbrun)........................................#eae8d3
+    Icke aktiva länkar (mellanbrun)............................#797067
+    Mouse over-färg (gråbrun)..................................#9d9087
+
+*/
+
+/*************************** Body-stilar ********************************/
+
+body {
+    width: 100%; 
+	font: small Verdana, Times, sans-serif;
+}
+
+a:link {
+    color: #51473d;
+}
+
+h1 {
+    font: 225% Times,sans-serif;
+    color: #51473d;
+}
+
+h2 {
+    font: 125% Times,sans-serif;
+    color: #51473d;
+}
+
+/*************************** Content-stilar ********************************/
+
+#container {
+    width: 600px;
+    height: 672px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    background-color: #51473d;
+    background-image: url('../css/pics/coffey.jpg');
+    background-repeat: no-repeat;
+}
+
+#topbar {
+    font-size: 75%;
+    font-style: italic;
+    color: #51473d;
+    float: right;
+    padding: 0.5em;
+}
+
+#menu {
+    background-color: #797067;
+    margin-bottom: 0;
+    height: 45px;
+    position: relative;
+    top: 16.5em;
+}
+
+#menu li {
+    display: inline;
+    padding: 0.75em;
+    margin-bottom: 0.5em;
+}
+
+#menu a:link {
+    text-decoration: none;
+    color: #eae8d3;
+    margin: 0.5em;
+}
+
+#content {
+    background-color: #eae8d3;
+    font: 85% Verdana,sans-serif;
+    color: #51473d;
+    position: relative;
+    top: 4.5em;
+    height: 360px;
+    width: 578px;
+    padding: 1em;
+    margin-top: 15em;
+    margin-right: 0;
+}
+
+#maincontent {
+    width: 270px;
+    float: left;
+    padding-top: 2em;
+}
+
+#maincontent img {
+    float: left;
+    margin: 1em 1em 1em 0em;
+}
+
+/*************************** Subcontent-stilar ********************************/
+
+#subcontent {
+    font: 85% Verdana,sans-serif;
+    color: #51473d;
+    background-color: #eae8d3;
+    border-left: 1px dashed #51473d;
+    width: 260px;
+    float: right;
+    margin-top: 4em;
+    padding: 1em;
+}
+
+#subcontent ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#subcontent h1 {
+    font: 145% Times,sans-serif;
+    color: #51473d;
+}
+
+#subcontent h2 {
+    margin-top: 5em;
+}
+/*************************** Bottomcontent-stilar ********************************/
+
+#bottomcontent {
+    background-color: #eae8d3;
+    font-size: 75%;
+    margin-left: -1.4em;
+    padding-left: 1em;
+    padding-top: 7em;
+    padding-bottom: 0.75em;
+    width: 592px;
+    font-style: italic;
+    clear: both;
+}
